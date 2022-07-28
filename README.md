@@ -24,11 +24,11 @@ The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanshi
 
 ---
 
-{{ site.posts | where:"item.post_type == 'meetup'" }}
-
+<ul>
 {% for post in site.posts %}
-- {{ post.title }} 
+  <li>{{ post.title }}</li>
 {% endfor %}
+</ul>
 
 ---
 
