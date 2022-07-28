@@ -27,7 +27,7 @@ The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanshi
 {{ site.posts | where:"item.post_type == 'meetup'" }}
 
 {% for post in site.posts %}
-- {{ post.title }}
+- {{ post.title }} 
 {% endfor %}
 
 ---
