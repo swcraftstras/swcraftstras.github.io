@@ -26,7 +26,7 @@ The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanshi
 
 <ul>
 {% for post in site.posts | where:"category","meetup" %}
-  <li>{{ post.title }}</li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
