@@ -20,7 +20,7 @@ Pas seulement la collaboration avec les clients, mais aussi des partenariats pro
 
 C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que les éléments de droite sont indispensables.
 
-The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanship.org/ )
+[The Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
 ---
 {% assign meetups = site.posts | where: "category", "meetup" %}
