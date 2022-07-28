@@ -1,0 +1,48 @@
+# - name: Prénom Nom
+#   description: ta description (ex. le titre que tu te donne sur linkedin)
+#   personal: 
+#     url: https://ton.site.perso/
+#     blog: https://le-blog-de-ta-boite.com
+#     github: ton-handle-github    # ex. https://github.com/ton-handle-github
+#     youtube: tonIdDeChannel      # ex. https://youtube.com/channel/tonIdDeChannel
+#     twitter: tonHandleTwitter    # ex. https://twitter.com/tonHandleTwitter
+#     linkedin: ton-id-linkedin    # ex. https://www.linkedin.com/in/ton-id-linkedin
+#   company: 
+#     name: Nom de ta boîte
+#     description: Description de ta boîte
+#     slogan: Sogan de ta boîte
+#     email: ton@adresse.email.pro
+#     url: https://le-site-de-ta-boite.com
+#     blog: https://le-blog-de-ta-boite.com
+#     github: handle-github-de-ta-boite      # ex. https://github.com/handle-github-de-ta-boite
+#     linkedin: id-de-ton-entreprise         # ex. https://www.linkedin.com/company/id-de-ton-entreprise
+#     twitter: handleTwitterDeTaBoite        # ex. https://twitter.com/handleTwitterDeTaBoite
+    
+- name: Nicolas Verinaud
+  description: 👨‍💻 CEO & Software Crafter at Ryfacto
+  personal: 
+    url: https://www.nverinaud.com/
+    github: nverinaud
+    youtube: UCq0nSiDtLNa7AIKO0Wup0wA
+    twitter: nverinaud
+    linkedin: nicolas-verinaud-7829881a
+  company: 
+    name: Ryfacto
+    description: Atelier Logiciel
+    slogan: Right softwares. Done right.
+    url: https://www.ryfacto.fr/
+    email: nicolas.verinaud@ryfacto.fr
+    blog: https://medium.com/ryfacto/
+    github: Ryfacto
+    linkedin: ryfacto
+    twitter: ryfacto_fr
+
+- name: Édouard Mangel
+  description: Développeur C# (ASP.NET Core) Software Craftsman (TDD, DDD, Clean architecture)
+  personal: 
+    url: https://www.linkedin.com/in/edouard-mangel-/
+    github: edouard-mangel
+    twitter: EdouardMangel
+    linkedin: edouard-mangel-
+  company: 
+    name: La Crafterie Tech
