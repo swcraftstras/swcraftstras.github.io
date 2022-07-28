@@ -26,6 +26,10 @@ The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanshi
 
 {{ site.posts | where:"item.post_type == 'meetup'" }}
 
+{% for post in site.posts %}
+- {{ post.title }}
+{% endfor %}
+
 ---
 
 📜 Ce contenu est sous licence libre : CC BY-SA : https://creativecommons.org/licenses/by-sa/4.0/deed.fr
