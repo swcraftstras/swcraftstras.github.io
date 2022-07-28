@@ -23,12 +23,11 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 The Manifesto for Software Craftsmanship ( http://manifesto.softwarecraftsmanship.org/ )
 
 ---
+{% assign meetups = site.posts | where: "category", "meetup" %}
 
 <ul>
-{% for post in site.posts %}
-{% if post.category == "meetup" %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endif %}
+{% for meetup in meetups %}
+  <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
 {% endfor %}
 </ul>
 
