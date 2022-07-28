@@ -22,6 +22,10 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 [The Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
+## 🎉 Nouveau! 🎉
+
+Votez pour vos thématiques préférées [dans l'espace de discussion](https://github.com/swcraftstras/swcraftstras.github.io/discussions/6).
+
 ---
 {% assign meetups = site.posts | where: "category", "meetup" %}
 
