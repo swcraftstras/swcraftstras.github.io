@@ -2,6 +2,16 @@
 
 ![Logo du Software Crafters Strasbourg](swcraftsxb-logo-grand.jpeg)
 
+***
+
+## Actu
+
+Le 18 novembre 2022, retrouvez Software Crafters Strasbourg au community booth lors du [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/).  
+
+<img alt="Logo DevFest Strasbourg 2022" src="https://devfest.gdgstrasbourg.fr/images/logos/logo-2022-pink.png" width="300" />
+
+***
+
 La communauté Software Crafters Strasbourg réunit les professionnels et professionnelles de la création de logiciels, sans sexisme, élitisme, ni langage ou techno obligatoire.
 
 Si vous êtes intéressé(e)s par le Test-Driven Development, Agile Testing, les challenges du code legacy, BDD, DDD, l'attitude Clean Coder, les problématiques de design, rejoignez-nous immédiatement pour être informé de tous nos événements !
