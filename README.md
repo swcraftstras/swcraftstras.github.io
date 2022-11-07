@@ -34,7 +34,7 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 ## 🎉 Nouveau! 🎉
 
-Votez pour vos thématiques préférées [dans l'espace de discussion](https://github.com/swcraftstras/swcraftstras.github.io/discussions/6).
+Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 ---
 {% assign meetups = site.posts | where: "category", "meetup" %}
