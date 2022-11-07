@@ -6,9 +6,13 @@
 
 ## Actu
 
+Prochain meetup : 
+
 Le 18 novembre 2022, retrouvez Software Crafters Strasbourg au community booth lors du [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/).  
 
 <img alt="Logo DevFest Strasbourg 2022" src="https://devfest.gdgstrasbourg.fr/images/logos/logo-2022-pink.png" width="300" />
+
+
 
 ***
 
