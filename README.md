@@ -42,8 +42,8 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 {% assign meetups = site.posts | where: "category", "meetup" %}
 {% assign today =  "now" | date: "%Y-%m-%d" %}
-{% assign past_meetups = meetups | where_exp:"event_date", "event_date <  today" %}
-{% assign next_meetups = meetups | where_exp:"event_date", "event_date >= today" %}
+{% assign past_meetups = meetups | where_exp:"item", "item.event_date <  today" %}
+{% assign next_meetups = meetups | where_exp:"item", "item.event_date >= today" %}
 
 ## Événements à venir
 
