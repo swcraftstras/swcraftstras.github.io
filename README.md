@@ -40,16 +40,27 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
----
 {% assign meetups = site.posts | where: "category", "meetup" %}
+{% assign today =  "now" | date: "%Y-%m-%d" %}
+{% assign past_meetups = meetups | where: "event_date" <  today %}
+{% assign next_meetups = meetups | where: "event_date" >= today %}
+
+## Événements à venir
 
 <ul>
-{% for meetup in meetups %}
+{% for meetup in next_meetups %}
   <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
 {% endfor %}
 </ul>
 
----
+## Événements passés
+
+<ul>
+{% for meetup in past_meetups %}
+  <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
+{% endfor %}
+</ul>
+
 
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 Si tu utilises ces contenus dans une publication, merci de nous le notifier [dans les discussions](https://github.com/swcraftstras/swcraftstras.github.io/discussions/categories/attributions-cc-by-sa).
