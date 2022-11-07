@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Introduction aux tests automatisés"
+event_date: "2022-11-14"
 date: "2022-07-27"
 category: meetup
 meetup_com_url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/287083662/
+
 ---
 
 Après une pause COVID, le meetup revient.
