@@ -1,7 +1,8 @@
 ---
 layout: post
+event_date: "2022-11-14"
 title:  "Dojo de programmation - Plage Digitale - Lundi 14 novembre 2022"
-date: "2022-11-14"
+date: "2022-11-07"
 category: meetup
 meetup_com_url: "https://www.meetup.com/software-crafters-strasbourg/events/289605378"
 ---
