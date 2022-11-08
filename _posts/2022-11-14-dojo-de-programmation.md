@@ -9,7 +9,7 @@ meetup_com_url: "https://www.meetup.com/software-crafters-strasbourg/events/2896
 
 # Dojo de programmation 2022-11-14
 
-[Inscription sur le site Meetup]({{meetup_com_url}})
+[Inscription sur le site Meetup](https://www.meetup.com/software-crafters-strasbourg/events/289605378)
 
 Un dojo de programmation est une session récurrente de programmation en groupe sur un exercice commun où l'échange sur les manières d'implémenter sont prioritaires sur toute autre considération de productivité.
 
