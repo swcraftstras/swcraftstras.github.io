@@ -45,16 +45,14 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 {% assign past_meetups = meetups | where_exp:"item", "item.event_date <  today" %}
 {% assign next_meetups = meetups | where_exp:"item", "item.event_date >= today" %}
 
-## Événements à venir
+## Événements à venir et passés
 
 <ul>
 {% for meetup in next_meetups %}
   <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
 {% endfor %}
 </ul>
-
-## Événements passés
-
+<!-- TODO : séparer les événements à venir et passés -->
 <ul>
 {% for meetup in past_meetups %}
   <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
