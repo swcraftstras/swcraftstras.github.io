@@ -61,17 +61,25 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 <ul>
 <!-- {% for meetup in next_meetups %} -->
 <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
-<!-- {% if meetup.event.registration.url %} --> <a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a><!-- {% endif %} -->
-<!-- {% if meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a><!-- {% endif %} -->
+<!-- {% if meetup.event.registration.url %} -->
+<a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a>
+<!-- {% endif %} -->
+<!-- {% if meetup.event.location.url %} -->
+<a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
+<!-- {% endif %} -->
 </li>
 <!-- {% endfor %} -->
 </ul>
 
 <details>
-<summary>Événements passés</summary>
+<summary style="cursor: pointer">Événements passés</summary>
 <ul>
 <!-- {% for meetup in past_meetups %} -->
-  <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
+  <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
+<!-- {% if meetup.event.pictures.url %} -->
+    <a title="Photos de l'événement" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
+<!-- {% endif %} -->
+</li>
 <!-- {% endfor %} -->
 </ul>
 </details>
