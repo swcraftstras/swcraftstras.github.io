@@ -1,7 +1,9 @@
 # Software Crafters Strasbourg
 
 <!--
-{% assign meetups = site.posts | where: "category", "meetup" %}
+{% assign event_categories = "meetup, conference" | split: ", " %}
+
+{% assign meetups = site.posts | where_exp: "category", 'event_categories[category] != empty ' %} 
 {% assign today =  "now" | date: "%Y-%m-%d" %}
 {% assign past_meetups = meetups | where_exp:"item", "item.event.date <  today"  %}
 {% assign next_meetups = meetups | where_exp:"item", "item.event.date >= today" | reverse %}
