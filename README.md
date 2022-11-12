@@ -1,11 +1,5 @@
 # Software Crafters Strasbourg
 
-![Logo du Software Crafters Strasbourg](/assets/img/swcraftsxb-logo-grand.jpeg)
-
-***
-
-## Actu
-
 <!--
 {% assign meetups = site.posts | where: "category", "meetup" %}
 {% assign today =  "now" | date: "%Y-%m-%d" %}
@@ -14,9 +8,15 @@
 {% assign next_meetup = next_meetups | first %}
 -->
 
+![Logo du Software Crafters Strasbourg](/assets/img/swcraftsxb-logo-grand.jpeg)
+
+***
+
+## Actu
+
 <!-- {% if next_meetup %} -->
 Prochain meetup : <a href="{{ next_meetup.url }}" target="_blank">{{ next_meetup.title }}</a>
-<!-- {% if next_meetup.meetup_com_url %} --> <a href="{{ next_meetup.meetup_com_url }}" target="_blank"><img src="/assets/img/favicon.a6878039.png" alt="Logo de meetup.com"  style="height:1rem;"/></a><!-- {% endif %} -->
+<!-- {% if next_meetup.meetup_com_url %} --> <a href="{{ next_meetup.meetup_com_url }}" title="Inscription sur le site Meetup.com" target="_blank"><img src="/assets/img/favicon.a6878039.png" alt="Logo de meetup.com"  style="height:1rem;"/></a><!-- {% endif %} -->
 <!-- {% if next_meetup.event_location_url %} --> <a href="{{ next_meetup.event_location_url }}" target="_blank" title="Lieu de l'événement">🗺</a><!-- {% endif %} -->
 
 <!-- {% endif %} -->
@@ -59,7 +59,10 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 <ul>
 <!-- {% for meetup in next_meetups %} -->
-  <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
+<li><a href="{{ meetup.url }}">{{ meetup.title }}</a>
+<!-- {% if meetup.meetup_com_url %} --> <a href="{{ meetup.meetup_com_url }}" title="Inscription sur le site Meetup.com" target="_blank"><img src="/assets/img/favicon.a6878039.png" alt="Logo de meetup.com"  style="height:1rem;"/></a><!-- {% endif %} -->
+<!-- {% if meetup.event_location_url %} --> <a href="{{ meetup.event_location_url }}" target="_blank" title="Lieu de l'événement">🗺</a><!-- {% endif %} -->
+</li>
 <!-- {% endfor %} -->
 </ul>
 
@@ -71,7 +74,6 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 <!-- {% endfor %} -->
 </ul>
 </details>
-
 
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 Si tu utilises ces contenus dans une publication, merci de nous le notifier [dans les discussions](https://github.com/swcraftstras/swcraftstras.github.io/discussions/categories/attributions-cc-by-sa).
