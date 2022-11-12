@@ -7,6 +7,7 @@ assignees: marc-bouvier
 
 ---
 
+<!--
 ---
 title:  "Introduction aux tests automatisés"
 date: "2022-07-27"
@@ -21,6 +22,7 @@ event:
 #    url: "https://www.meetup.com/software-crafters-strasbourg/events/TODO"
 
 ---
+-->
 
 <!--
 Énoncé du meetup.
