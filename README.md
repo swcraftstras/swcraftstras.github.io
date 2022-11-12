@@ -18,7 +18,7 @@
 Prochain meetup :
 {{ next_meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ next_meetup.url }}">{{ next_meetup.title }}</a>
 <!-- {% if next_meetup.event.registration.url %} --> <a title="Inscription sur le site Meetup.com" href="{{ next_meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de next_meetup.com" src="/assets/img/event_registration_icon_{{ next_meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a><!-- {% endif %} -->
-<!-- {% if next_meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ next_meetup.event.location.url }}" target="_blank">🗺 {{ next_meetup.event.location.name }}</a><!-- {% endif %} -->
+<!-- {% if next_meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ next_meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ next_meetup.event.location.name }}</a><!-- {% endif %} -->
 
 <!-- {% endif %} -->
 
@@ -62,7 +62,7 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 <!-- {% for meetup in meetups %} -->
 <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
 <!-- {% if meetup.event.registration.url %} --> <a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a><!-- {% endif %} -->
-<!-- {% if meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank">🗺 {{ meetup.event.location.name }}</a><!-- {% endif %} -->
+<!-- {% if meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a><!-- {% endif %} -->
 </li>
 <!-- {% endfor %} -->
 </ul>
