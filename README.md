@@ -6,7 +6,19 @@
 
 ## Actu
 
-Prochain meetup : [Dojo de programmation - Plage Digitale - Lundi 14 novembre 2022](_posts/2022-11-14-dojo-de-programmation.md)
+<!--
+{% assign meetups = site.posts | where: "category", "meetup" %}
+{% assign today =  "now" | date: "%Y-%m-%d" %}
+{% assign past_meetups = meetups | where_exp:"item", "item.event_date <  today" | reverse %}
+{% assign next_meetups = meetups | where_exp:"item", "item.event_date >= today" | reverse %}
+{% assign next_meetup = next_meetups | first %}
+-->
+
+<!-- {% if next_meetup %} -->
+Prochain meetup : <a href="{{ next_meetup.url }}">{{ next_meetup.title }}</a>
+<!-- {% endif %} -->
+
+***
 
 Conférence : Le 18 novembre 2022, retrouvez Software Crafters Strasbourg au community booth lors du [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/).  
 
@@ -38,24 +50,22 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
-{% assign meetups = site.posts | where: "category", "meetup" %}
-{% assign today =  "now" | date: "%Y-%m-%d" %}
-{% assign past_meetups = meetups | where_exp:"item", "item.event_date <  today" %}
-{% assign next_meetups = meetups | where_exp:"item", "item.event_date >= today" %}
-
-## Événements à venir et passés
+## Événements à venir
 
 <ul>
-{% for meetup in next_meetups %}
+<!-- {% for meetup in next_meetups %} -->
   <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
-{% endfor %}
+<!-- {% endfor %} -->
 </ul>
-<!-- TODO : séparer les événements à venir et passés -->
+
+<details>
+<summary>Événements passés</summary>
 <ul>
-{% for meetup in past_meetups %}
+<!-- {% for meetup in past_meetups %} -->
   <li><a href="{{ meetup.url }}">{{ meetup.title }}</a></li>
-{% endfor %}
+<!-- {% endfor %} -->
 </ul>
+</details>
 
 
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
