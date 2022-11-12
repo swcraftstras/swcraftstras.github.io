@@ -3,11 +3,11 @@ locale: "fr_FR"
 lang: "fr_FR"
 title: "Software Crafters Strasbourg"
 
-theme: minima
+theme: minimal
 
 minima:
 #  date_format: "%b %-d, %Y"
-  skin: dark
+  skin: auto
   # generate social links in footer
   social_links:
   - { platform: devto,          user_url: "https://dev.to/jekyll" }
