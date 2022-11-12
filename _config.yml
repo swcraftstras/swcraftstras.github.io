@@ -7,7 +7,7 @@ theme: minima
 
 minima:
 #  date_format: "%b %-d, %Y"
-
+  skin: dark
   # generate social links in footer
   social_links:
   - { platform: devto,          user_url: "https://dev.to/jekyll" }
