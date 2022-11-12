@@ -1,7 +1,9 @@
 timezone: "Europe/Paris"
 locale: "fr_FR"
 lang: "fr_FR"
-#title: "Software Crafters Strasbourg"
+title: "Software Crafters Strasbourg"
+
+theme: minima
 
 minima:
 #  date_format: "%b %-d, %Y"
