@@ -10,8 +10,6 @@
 
 ![Logo du Software Crafters Strasbourg](/assets/img/swcraftsxb-logo-grand.jpeg)
 
-***
-
 ## Actu
 
 <!-- {% if next_meetup %} -->
