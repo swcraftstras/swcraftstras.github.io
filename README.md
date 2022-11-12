@@ -6,13 +6,11 @@
 
 ## Actu
 
-Prochain meetup : 
+Prochain meetup : [Dojo de programmation - Plage Digitale - Lundi 14 novembre 2022](_posts/2022-11-14-dojo-de-programmation.md)
 
-Le 18 novembre 2022, retrouvez Software Crafters Strasbourg au community booth lors du [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/).  
+Conférence : Le 18 novembre 2022, retrouvez Software Crafters Strasbourg au community booth lors du [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/).  
 
 <img alt="Logo DevFest Strasbourg 2022" src="https://devfest.gdgstrasbourg.fr/images/logos/logo-2022-pink.png" width="300" />
-
-
 
 ***
 
