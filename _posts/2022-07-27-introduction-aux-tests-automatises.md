@@ -1,5 +1,4 @@
 ---
-layout: "post"
 title:  "Introduction aux tests automatisés"
 date: "2022-07-27"
 category: "meetup"

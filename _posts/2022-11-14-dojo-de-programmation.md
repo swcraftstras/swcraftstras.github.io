@@ -1,5 +1,4 @@
 ---
-layout: "post"
 title:  "Dojo de programmation"
 date: "2022-11-07"
 category: "meetup"
