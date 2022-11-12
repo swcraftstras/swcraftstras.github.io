@@ -1,5 +1,3 @@
-# Software Crafters Strasbourg
-
 <!--
 {% assign event_categories = "meetup, conference" | split: ", " %}
 
