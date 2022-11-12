@@ -3,7 +3,7 @@
 <!--
 {% assign meetups = site.posts | where: "category", "meetup" %}
 {% assign today =  "now" | date: "%Y-%m-%d" %}
-{% assign past_meetups = meetups | where_exp:"item", "item.event.date <  today" | reverse %}
+{% assign past_meetups = meetups | where_exp:"item", "item.event.date <  today"  %}
 {% assign next_meetups = meetups | where_exp:"item", "item.event.date >= today" | reverse %}
 {% assign next_meetup = next_meetups | first %}
 -->
