@@ -46,6 +46,9 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 [The Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
+![Logo meetup](favicon.a6878039.png)
+
+
 ## 🎉 Nouveau! 🎉
 
 Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
