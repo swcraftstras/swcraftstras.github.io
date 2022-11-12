@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: "post"
 title:  "Introduction aux tests automatisés"
 date: "2022-07-27"
-category: meetup
+category: "meetup"
 event_date: "2022-07-27"
-meetup_com_url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/287083662/
+event_location_url: "https://www.openstreetmap.org/#map=19/48.57633/7.75553&layers=N"
+meetup_com_url: "https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/287083662/"
 
 ---
 

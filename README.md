@@ -1,6 +1,6 @@
 # Software Crafters Strasbourg
 
-![Logo du Software Crafters Strasbourg](swcraftsxb-logo-grand.jpeg)
+![Logo du Software Crafters Strasbourg](/assets/img/swcraftsxb-logo-grand.jpeg)
 
 ***
 
@@ -15,7 +15,10 @@
 -->
 
 <!-- {% if next_meetup %} -->
-Prochain meetup : <a href="{{ next_meetup.url }}">{{ next_meetup.title }}</a>
+Prochain meetup : <a href="{{ next_meetup.url }}" target="_blank">{{ next_meetup.title }}</a>
+<!-- {% if next_meetup.meetup_com_url %} --> <a href="{{ next_meetup.meetup_com_url }}" target="_blank"><img src="/assets/img/favicon.a6878039.png" alt="Logo de meetup.com"  style="height:1rem;"/></a><!-- {% endif %} -->
+<!-- {% if next_meetup.event_location_url %} --> <a href="{{ next_meetup.event_location_url }}" target="_blank" title="Lieu de l'événement">🗺</a><!-- {% endif %} -->
+
 <!-- {% endif %} -->
 
 ***
@@ -46,7 +49,6 @@ C'est à dire qu'en recherchant les éléments de gauche, nous avons trouvé que
 
 [The Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
-![Logo meetup](favicon.a6878039.png)
 
 
 ## 🎉 Nouveau! 🎉
