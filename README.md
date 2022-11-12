@@ -62,3 +62,5 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 Si tu utilises ces contenus dans une publication, merci de nous le notifier [dans les discussions](https://github.com/swcraftstras/swcraftstras.github.io/discussions/categories/attributions-cc-by-sa).
+
+Dépôt GitHub de ce site [par ici](https://github.com/swcraftstras/swcraftstras.github.io).
