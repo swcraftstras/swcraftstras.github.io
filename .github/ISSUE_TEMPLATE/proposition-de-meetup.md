@@ -13,13 +13,15 @@ title:  "Introduction aux tests automatisés"
 date: "2022-07-27"
 category: "meetup"
 event:
-  date: "YYYY-MM-DD"
-  location:
-#    name: "La plage Digitale"
-#    url: "https://www.openstreetmap.org/#map=19/48.57633/7.75553&layers=N"
-  registration:
-    type: meetup_com
-#    url: "https://www.meetup.com/software-crafters-strasbourg/events/TODO"
+    date: "YYYY-MM-DD"
+    pictures:
+        #url: ""
+    location:
+        #name: "La plage Digitale"
+        #url: "https://www.openstreetmap.org/#map=19/48.57633/7.75553&layers=N"
+    registration:
+        type: meetup_com
+        #url: "https://www.meetup.com/software-crafters-strasbourg/events/TODO"
 
 ---
 -->
