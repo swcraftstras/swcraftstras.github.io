@@ -25,9 +25,9 @@ C'est un dojo donc nous allons faire très peu de théorie, beaucoup de pratique
 
 Liste des katas disponibles
 
-https://cyber-dojo.org/
+- https://cyber-dojo.org/
 
-Demandez le programme !
+## Demandez le programme !
 
 Nous vous accueillerons sur le Discord à partir de 19h, et nous commencerons à 19h15.
 
