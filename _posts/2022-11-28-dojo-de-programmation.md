@@ -17,6 +17,8 @@ event:
 
 ⚠️ Cet événement sera en ligne et se déroulera [sur Discord](https://discord.gg/s2USaKanCU) ⚠️
 
+Les inscriptions se font sur [Meetup.com]( {{ event.registration.url }} ).
+
 Un dojo de programmation est une session récurrente de programmation en groupe sur un exercice commun où l'échange sur les manières d'implémenter sont prioritaires sur toute autre considération de productivité.
 
 https://codingdojo.org/practices/WhatIsCodingDojo/
