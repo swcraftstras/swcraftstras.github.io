@@ -16,7 +16,7 @@ event:
 
 ---
 
-![](/assets/img/qrcode_swcraftstras.github.io.png)
+![QR code pointnant vers https://swcraftstras.github.io/](/assets/img/qrcode_swcraftstras.github.io.png)
 
 On parle de craft, on fait des Coding Dojo!!! Viendez.
 
