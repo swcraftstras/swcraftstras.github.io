@@ -15,11 +15,14 @@ event:
         url: "https://devfest.gdgstrasbourg.fr/"
 
 ---
+
+![](/assets/img/qrcode_swcraftstras.github.io.png)
+
+On parle de craft, on fait des Coding Dojo!!! Viendez.
+
 Le 18 novembre 2022, retrouvez le meetup Software Crafters Strasbourg au community booth lors du DevFest Strasbourg!
 
 Ça se passe au Campus CCI Strasbourg.
 
 ![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/event-swcraftsxb-devfest-2022.jpeg)
 
-
-![](/assets/img/qrcode_swcraftstras.github.io.png)
