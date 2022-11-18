@@ -20,3 +20,6 @@ Le 18 novembre 2022, retrouvez le meetup Software Crafters Strasbourg au communi
 Ça se passe au Campus CCI Strasbourg.
 
 ![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/event-swcraftsxb-devfest-2022.jpeg)
+
+
+![](/assets/img/qrcode_swcraftstras.github.io.png)
