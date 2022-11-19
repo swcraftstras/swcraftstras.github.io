@@ -9,4 +9,4 @@ fi
 
 echo ""
 echo "➡️ Building jekyll site locally with github-pages defaults..."
-docker run -v $(pwd)/:/data/ --workdir="/data/" swcraftstras-build-page:latest
+docker run -v --rm $(pwd)/:/data/ --workdir="/data/" swcraftstras-build-page:latest
