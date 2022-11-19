@@ -16,11 +16,6 @@ url: "https://devfest.gdgstrasbourg.fr/"
 
 ---
 
-| Le meetup                                                                                                | Le Discord                                                                                                       |
-|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| ![QR code pointnant vers https://swcraftstras.github.io/](/assets/img/qrcode_swcraftstras.github.io.png) | ![QR code vers le Discord du meetup : https://discord.com/invite/s2USaKanCU](/assets/img/qrcode_discord.com.png) |
-|
-
 On parle de craft, on fait des Coding Dojo!!! Viendez.
 
 Le 18 novembre 2022, retrouvez le meetup Software Crafters Strasbourg au community booth lors du DevFest Strasbourg!
@@ -29,3 +24,10 @@ Le 18 novembre 2022, retrouvez le meetup Software Crafters Strasbourg au communi
 
 ![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/event-swcraftsxb-devfest-2022.jpeg)
 
+## Le meetup
+
+![QR code pointnant vers https://swcraftstras.github.io/](/assets/img/qrcode_swcraftstras.github.io.png)
+
+## Le Discord                                                                                                   
+
+![QR code vers le Discord du meetup : https://discord.com/invite/s2USaKanCU](/assets/img/qrcode_discord.com.png)
