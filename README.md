@@ -1,3 +1,16 @@
+<style>
+/** Dark mode depending on OS setting **/
+    @media (prefers-color-scheme: dark) {
+        body {
+            color: #eee;
+            background: #333;
+        }
+        a {
+            color: #7a9bff;
+        }
+    }  
+</style>
+
 <!--
 {% assign event_categories = "meetup, conference" | split: ", " %}
 
