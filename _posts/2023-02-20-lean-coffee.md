@@ -19,8 +19,6 @@ event:
 
 Les inscriptions se font sur [Meetup.com]({{ page.event.registration.url }}).
 
-## Lean Coffee
-
 [Le Lean Coffee](https://leancoffee.org/) est une technique d'animation de réunion au format simple mais efficace. Il est structuré, avec un ordre du jour démocratiquement choisi, et la discussion est dirigée par les participants à la réunion.
 
 Nous vous proposons d'essayer cet atelier pour discuter de thématiques que vous souhaiteriez qu'on aborde lors de prochains événement du Meetup.
