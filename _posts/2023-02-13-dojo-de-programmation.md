@@ -15,6 +15,8 @@ event:
 
 ---
 
+## {{ page.title }}
+
 ⚠️ Cet événement sera en ligne et se déroulera [sur Discord](https://discord.gg/s2USaKanCU) ⚠️
 
 Les inscriptions se font sur [Meetup.com]({{ page.event.registration.url }}).

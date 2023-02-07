@@ -15,6 +15,8 @@ event:
 
 ---
 
+## {{ page.title }}
+
 Les inscriptions se font sur [Meetup.com]({{ page.event.registration.url }}).
 
 ## Lean Coffee
