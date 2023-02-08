@@ -3,7 +3,7 @@ title:  "Kata DDD Stratégique — Partie 1 — Event Storming — Découverte d
 date: "2023-02-07"
 category: "meetup"
 event:
-    date: "2023-03-06"
+    date: "2023-03-XX"
     pictures:
         #url: ""
     location:
