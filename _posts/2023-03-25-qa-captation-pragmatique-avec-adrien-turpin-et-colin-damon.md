@@ -38,6 +38,6 @@ Pour celles et ceux qui souhaitent continuer à discuter après l’événement,
 
 Inscrivez-vous à l’adresse suivante : [{{ page.event.registration.url }}]({{ page.event.registration.url }})
 
-L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page.event.date | date: "%Hh%M" }} à [{{ page.event.location.name }}]({{ page.event.location.url }})
+L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page.event.date | date: "%Hh%M" }} [{{ page.event.location.name }}]({{ page.event.location.url }})
 
 Rejoignez-nous sur [Discord](https://discord.gg/s2USaKanCU) pour participer à la communauté et aux événements futurs.
