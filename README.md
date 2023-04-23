@@ -19,6 +19,12 @@ Prochain meetup :
 <!-- {% if next_meetup.event.registration.url %} --> <a title="Inscription sur le site Meetup.com" href="{{ next_meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de next_meetup.com" src="/assets/img/event_registration_icon_{{ next_meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a><!-- {% endif %} -->
 <!-- {% if next_meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ next_meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ next_meetup.event.location.name }}</a><!-- {% endif %} -->
 
+<!-- {% if next_meetup.event.cover.img %} -->
+
+![{{ next_meetup.event.cover.alt }}]({{ next_meetup.event.cover.img }}){: width="300" }
+
+<!-- {% endif %} -->
+
 <!-- {% endif %} -->
 
 ***
