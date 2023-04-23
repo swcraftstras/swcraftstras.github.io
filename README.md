@@ -21,7 +21,7 @@ Prochain meetup :
 
 <!-- {% if next_meetup.event.cover.img %} -->
 
-![{{ next_meetup.event.cover.alt }}]({{ next_meetup.event.cover.img }}){: width="300" }
+[![{{ next_meetup.event.cover.alt }}]({{ next_meetup.event.cover.img }}){: width="300" }]({{ next_meetup.url }})
 
 <!-- {% endif %} -->
 
