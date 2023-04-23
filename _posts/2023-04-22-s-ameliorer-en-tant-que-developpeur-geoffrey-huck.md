@@ -4,6 +4,9 @@ date: "2023-04-22"
 category: "meetup"
 event:
   date: "2023-05-10 19:00:00.000"
+  cover: 
+    img: "/assets/img/event-s-ameliorer-en-tant-que-dev-geoffrey-huck.png"
+    alt: "Geoffrey Huck — S'améliorer en tant que développeur"
   pictures:
   #url: ""
   location:
@@ -18,6 +21,8 @@ event:
 ---
 
 ## {{ page.title }}
+
+![{{ page.event.cover.alt }}]({{ page.event.cover.img }}){: width="600" }
 
 Pour faire la différence en tant que développeur, le niveau technique ne suffit pas. Les domaines émotionnels et relationnels sont tout aussi important. Avec de la méthode, il est possible de les développer de la même manière que les compétences techniques. A la clé: plus de motivation, plus d'impact et plus d'opportunités professionnelles.
 
