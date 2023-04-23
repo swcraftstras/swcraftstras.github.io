@@ -26,4 +26,4 @@ else
   FUTURE=''
 fi
 
-github-pages build --source "/data/" --destination="/data/_site" -- --watch
+github-pages build --source "/data/" --destination="/data/_site"
