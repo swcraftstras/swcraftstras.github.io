@@ -9,11 +9,11 @@
 {% assign next_meetup = next_meetups | first %}
 -->
 
-<p align="center">
+<div style="text-align:center">
 <img alt="Logo du Software Crafters Strasbourg"
 src="/assets/img/swcraftsxb-logo-grand.jpeg"
-width="600"/>
-</p>
+width="600" />
+</div>
 
 ## Actu
 
