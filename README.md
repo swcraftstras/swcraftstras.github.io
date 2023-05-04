@@ -39,14 +39,31 @@ Si vous êtes intéressé(e)s par le Test-Driven Development, Agile Testing, les
 
 En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du développement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire.
 
-Grâce à ce travail, nous avons appris à apprécier :
-
-| Grâce à ce travail, nous avons appris à apprécier : |                                              |
-|-----------------------------------------------------|----------------------------------------------|
-| Pas seulement des logiciels opérationnels,          | mais aussi des logiciels bien conçus.        |
-| Pas seulement l'adaptation aux changements,         | mais aussi l'ajout constant de la valeur.    |
-| Pas seulement les individus et leurs interactions,  | mais aussi une communauté de professionnels. |
-| Pas seulement la collaboration avec les clients,    | mais aussi des partenariats productifs.      |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Grâce à ce travail, nous avons appris à apprécier :</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pas seulement des logiciels opérationnels,</td>
+      <td>mais aussi des logiciels bien conçus.</td>
+    </tr>
+    <tr>
+      <td>Pas seulement l’adaptation aux changements,</td>
+      <td>mais aussi l’ajout constant de la valeur.</td>
+    </tr>
+    <tr>
+      <td>Pas seulement les individus et leurs interactions,</td>
+      <td>mais aussi une communauté de professionnels.</td>
+    </tr>
+    <tr>
+      <td>Pas seulement la collaboration avec les clients,</td>
+      <td>mais aussi des partenariats productifs.</td>
+    </tr>
+  </tbody>
+</table>
 
 C’est-à-dire qu’en recherchant les éléments de gauche, nous avons trouvé que les éléments de droite sont indispensables.
 
