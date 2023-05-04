@@ -9,7 +9,11 @@
 {% assign next_meetup = next_meetups | first %}
 -->
 
-![Logo du Software Crafters Strasbourg](/assets/img/swcraftsxb-logo-grand.jpeg)
+<p align="center">
+<img alt="Logo du Software Crafters Strasbourg"
+src="/assets/img/swcraftsxb-logo-grand.jpeg"
+width="600"/>
+</p>
 
 ## Actu
 
