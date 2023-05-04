@@ -1,4 +1,4 @@
-<style>/** Dark mode depending on OS setting **/ @media (prefers-color-scheme: dark) { body,tr,tr:nth-child(2n),td,th { color: #eee; background: #293656;  }        a {            color: #7a9bff;        }    } .text-gray {    color: #91a8dc !important;} </style>
+<style>/** Dark mode depending on OS setting **/ @media (prefers-color-scheme: dark) { body,tr,tr:nth-child(2n),td,th { color: #eee; background: #293656; border:none }        a {            color: #7a9bff;        }    } .text-gray {    color: #91a8dc !important;} </style>
 <!--
 {% assign event_categories = "meetup, conference" | split: ", " %}
 
