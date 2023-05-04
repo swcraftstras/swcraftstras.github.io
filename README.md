@@ -91,9 +91,9 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 <!-- {% if meetup.event.cover.img %} -->
 <br/>
-<img alt="{{ meetup.event.cover.alt }}"
+<a href="{{ meetup.url }}"><img alt="{{ meetup.event.cover.alt }}"
 src="{{ meetup.event.cover.img }}"
-width="300"/>
+width="300"/></a>
 <!-- {% endif %} -->
 
 <!-- {% if meetup.event.registration.url or meetup.event.location.url %} -->
