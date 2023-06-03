@@ -48,6 +48,8 @@ L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page
 
 {{ page.event.location.details }}
 
-![Plan du lieu]({{ page.event.location.img }}){: width="500" }
+![Plan du lieu]({{ page.event.location.img }}){: width="200" }
+
+***
 
 Rejoignez-nous sur [Discord](https://discord.gg/s2USaKanCU) pour participer à la communauté et aux événements futurs.
