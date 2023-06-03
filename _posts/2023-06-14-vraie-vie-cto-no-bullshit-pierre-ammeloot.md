@@ -11,7 +11,7 @@ event:
   #url: ""
   location:
     name: "👉 en ligne sur Discord 👈"
-    url: "https://discord.gg/aSMFEwhw?event=1103609082532876358"
+    url: "https://discord.gg/sxUsNJpzVk?event=1103609082532876358"
     details: ""
     img: "/assets/img/discord-logo-blue.svg"
   registration:
