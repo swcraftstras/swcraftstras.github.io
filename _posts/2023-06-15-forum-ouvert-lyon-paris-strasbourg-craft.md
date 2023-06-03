@@ -11,7 +11,7 @@ event:
   #url: ""
   location:
     name: "👉 en ligne sur le Discord du meetup Software Crafters Lyon 👈"
-    url: "https://discord.gg/T6wJUWW"
+    url: "https://discord.gg/pPDxAz3kSR"
     details: ""
     img: "/assets/img/discord-logo-blue.svg"
   registration:
