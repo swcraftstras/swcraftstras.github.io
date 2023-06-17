@@ -89,7 +89,8 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 ## Événements à venir
 
-<!-- {% if next_meetups %} -->
+<!-- {% if next_meetup %} -->
+
 <ul>
 <!-- {% for meetup in next_meetups %} -->
 <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
@@ -121,6 +122,7 @@ width="300"/></a>
 <!-- {% else %} -->
 
 🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
+
 <!-- {% endif %} -->
 
 <details>
