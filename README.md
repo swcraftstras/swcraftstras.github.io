@@ -125,9 +125,11 @@ C’est-à-dire qu’en recherchant les éléments de gauche, nous avons trouvé
 
 [The Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
-## 🎉 Nouveau! 🎉
+## Retrouvez-nous
 
-Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
+- [sur Discord](https://discord.gg/s2USaKanCU)
+- [sur Twitter](https://twitter.com/swcraftstras)
+- [sur Meetup](https://www.meetup.com/software-crafters-strasbourg)
 
 ***
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
