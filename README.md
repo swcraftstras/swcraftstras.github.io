@@ -89,6 +89,7 @@ Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
 ## Événements à venir
 
+<!-- {% if next_meetups %} -->
 <ul>
 <!-- {% for meetup in next_meetups %} -->
 <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
@@ -117,6 +118,11 @@ width="300"/></a>
 <!-- {% endfor %} -->
 </ul>
 
+<!-- {% else %} -->
+
+🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
+<!-- {% endif %} -->
+
 <details>
 <summary style="cursor: pointer">Événements passés</summary>
 
@@ -131,16 +137,6 @@ width="300"/></a>
    </tr>
 <!-- {% endfor %} -->
 </tbody></table>
- 
-<ul>
-<!-- {% for meetup in past_meetups %} -->
-  <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
-<!-- {% if meetup.event.pictures.url %} -->
-    <a title="Photos de l'événement" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
-<!-- {% endif %} -->
-</li>
-<!-- {% endfor %} -->
-</ul>
 </details>
 
 ***
