@@ -25,4 +25,3 @@ Durant ce talk, nous verrons pourquoi écrire des tests automatisés peut vous a
 
 Si vous avez déjà écrit des milliers de tests ou si vous êtes totalement novice, ce talk est fait pour vous !
 
-Notre speaker sera Joffrey KERN ([@Jo_Kern](https://twitter.com/Jo_Kern)), Software Engineer chez ASOS.
