@@ -45,7 +45,7 @@ Prochain meetup :
 
 <!-- {% endif %} -->
 
-***
+## La communauté
 
 La communauté <span lang="en-Gb">Software Crafters</span> Strasbourg réunit les professionnels et professionnelles de la création de logiciels, sans sexisme, élitisme, ni langage ou techno obligatoire.
 
