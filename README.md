@@ -39,6 +39,10 @@ Prochain meetup :
 
 <!-- {% endif %} -->
 
+<!-- {% else %} -->
+
+🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
+
 <!-- {% endif %} -->
 
 ***
