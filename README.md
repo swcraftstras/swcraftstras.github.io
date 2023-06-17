@@ -25,6 +25,61 @@ src="/assets/img/swcraftsxb-logo-grand.jpeg"
 width="600" />
 </div>
 
+
+## Événements à venir
+
+<!-- {% if next_meetup %} -->
+
+<ul>
+<!-- {% for meetup in next_meetups %} -->
+<li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
+
+<!-- {% if meetup.event.cover.img %} -->
+<br/>
+<a href="{{ meetup.url }}"><img alt="{{ meetup.event.cover.alt }}"
+src="{{ meetup.event.cover.img }}"
+width="300"/></a>
+<!-- {% endif %} -->
+
+<!-- {% if meetup.event.registration.url or meetup.event.location.url %} -->
+<br/>
+<!-- {% endif %} -->
+
+<!-- {% if meetup.event.registration.url %} -->
+<a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a>
+<!-- {% endif %} -->
+
+<!-- {% if meetup.event.location.url %} -->
+<a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
+<!-- {% endif %} -->
+
+
+</li>
+<!-- {% endfor %} -->
+</ul>
+
+<!-- {% else %} -->
+
+🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
+
+<!-- {% endif %} -->
+
+<details>
+<summary style="cursor: pointer">Événements passés</summary>
+
+<table><tbody>
+<!-- {% for meetup in past_meetups %} -->
+  <tr>
+    <td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td><td><a href="{{ meetup.url }}">{{ meetup.title }}</a>
+<!-- {% if meetup.event.pictures.url %} -->
+    <a title="Photos de l'événement" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
+<!-- {% endif %} -->
+    </td>
+   </tr>
+<!-- {% endfor %} -->
+</tbody></table>
+</details>
+
 ## Actu
 
 <!-- {% if next_meetup %} -->
@@ -87,62 +142,7 @@ C’est-à-dire qu’en recherchant les éléments de gauche, nous avons trouvé
 
 Retrouvez-nous [sur Discord](https://discord.gg/s2USaKanCU)
 
-## Événements à venir
-
-<!-- {% if next_meetup %} -->
-
-<ul>
-<!-- {% for meetup in next_meetups %} -->
-<li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
-
-<!-- {% if meetup.event.cover.img %} -->
-<br/>
-<a href="{{ meetup.url }}"><img alt="{{ meetup.event.cover.alt }}"
-src="{{ meetup.event.cover.img }}"
-width="300"/></a>
-<!-- {% endif %} -->
-
-<!-- {% if meetup.event.registration.url or meetup.event.location.url %} -->
-<br/>
-<!-- {% endif %} -->
-
-<!-- {% if meetup.event.registration.url %} -->
-<a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a>
-<!-- {% endif %} -->
-
-<!-- {% if meetup.event.location.url %} -->
-<a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
-<!-- {% endif %} -->
-
-
-</li>
-<!-- {% endfor %} -->
-</ul>
-
-<!-- {% else %} -->
-
-🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
-
-<!-- {% endif %} -->
-
-<details>
-<summary style="cursor: pointer">Événements passés</summary>
-
-<table><tbody>
-<!-- {% for meetup in past_meetups %} -->
-  <tr>
-    <td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td><td><a href="{{ meetup.url }}">{{ meetup.title }}</a>
-<!-- {% if meetup.event.pictures.url %} -->
-    <a title="Photos de l'événement" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
-<!-- {% endif %} -->
-    </td>
-   </tr>
-<!-- {% endfor %} -->
-</tbody></table>
-</details>
-
 ***
- 
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 Si tu utilises ces contenus dans une publication, merci de nous le notifier [dans les discussions](https://github.com/swcraftstras/swcraftstras.github.io/discussions/categories/attributions-cc-by-sa).
 
