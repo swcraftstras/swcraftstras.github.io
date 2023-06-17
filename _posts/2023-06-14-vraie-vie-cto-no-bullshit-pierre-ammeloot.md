@@ -1,9 +1,9 @@
 ---
 title: "La vraie vie d’un CTO en mode « no bullshit » — Pierre Ammeloot"
-date: "2023-05-04"
+date: "2023-06-14"
 category: "meetup"
 event:
-  date: "2023-06-14 18:15:00.000"
+  date: "2023-06-19 18:15:00.000"
   cover: 
     img: "/assets/img/event-vraie-vie-cto-no-bullshit-pierre-ammeloot.png"
     alt: "Pierre Ammeloot — La vraie vie d’un CTO en mode « no bullshit »"
