@@ -1,6 +1,6 @@
 ---
 title:  "Lean Coffee"
-date: "2023-02-07"
+date: "2023-02-20"
 category: "meetup"
 event:
     date: "2023-02-20"

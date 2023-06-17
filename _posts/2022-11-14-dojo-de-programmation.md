@@ -1,6 +1,6 @@
 ---
 title:  "Dojo de programmation"
-date: "2022-11-07"
+date: "2022-11-14"
 category: "meetup"
 event:
     date: "2022-11-14"

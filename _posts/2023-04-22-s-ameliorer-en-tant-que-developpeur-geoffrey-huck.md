@@ -1,6 +1,6 @@
 ---
 title: "Comment s'améliorer en tant que développeur ?"
-date: "2023-04-22"
+date: "2023-05-10"
 category: "meetup"
 event:
   date: "2023-05-10 19:00:00.000"

@@ -1,6 +1,6 @@
 ---
 title:  "Captation pragmatique"
-date: "2023-03-25"
+date: "2023-04-05"
 category: "meetup"
 event:
     date: "2023-04-05 19:00"

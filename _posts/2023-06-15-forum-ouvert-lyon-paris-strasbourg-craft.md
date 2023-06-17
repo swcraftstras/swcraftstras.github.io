@@ -3,7 +3,7 @@ title: "Forum ouvert avec Paris et Lyon"
 date: "2023-06-15"
 category: "meetup"
 event:
-  date: "2023-06-20 19:00:00.000"
+  date: "2023-06-15 19:00:00.000"
   cover: 
     img: "/assets/img/event-forum-ouvert-lyon-paris-strasbourg-craft.png"
     alt: "TODO"

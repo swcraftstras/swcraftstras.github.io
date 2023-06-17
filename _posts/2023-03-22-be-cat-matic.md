@@ -1,6 +1,6 @@
 ---
 title: "Be cat-matic"
-date: "2023-03-04"
+date: "2023-03-22"
 category: "meetup"
 event:
     date: "2023-03-22 19:00:00.000"

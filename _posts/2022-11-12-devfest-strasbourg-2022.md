@@ -1,6 +1,6 @@
 ---
 title: "DevFest Strasbourg 2022 — Retrouvez nous au community booth"
-date: "2022-11-12"
+date: "2022-11-18"
 category: "conference"
 event:
     date: "2022-11-18"
