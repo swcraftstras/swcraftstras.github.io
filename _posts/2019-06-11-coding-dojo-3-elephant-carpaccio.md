@@ -26,13 +26,19 @@ event:
 
 ATTENTION : ramenez votre ordinateur car nous allons coder !
 
-Fred & Nico vous proposent de vous entraîner au découpage des stories en tout petit rikiki morceaux apportant de la valeur. L’objectif est simple : livrer un maximum de valeur en un temps record !
+Fred & Nico vous proposent de vous entraîner au découpage des stories en tout petit rikiki morceaux apportant de la valeur.
+L’objectif est simple : livrer un maximum de valeur en un temps record !
 
-Vous aimeriez livrer plus souvent, plus rapidement, mais sans lorgner sur la qualité et sans faire du "quick’n’dirty" ? C’est possible ! Et la première étape consiste à en faire moins ! Moins de fonctionnalités, moins de stories et des stories plus petites. Les plus petites possibles...mais attention ; chaque story doit apporter de la valeur !
+Vous aimeriez livrer plus souvent, plus rapidement, mais sans lorgner sur la qualité et sans faire du "quick’n’dirty" ?
+C’est possible !
+Et la première étape consiste à en faire moins !
+Moins de fonctionnalités, moins de stories et des stories plus petites. 
+Les plus petites possibles...mais attention ; chaque story doit apporter de la valeur !
 
 Nous verrons ensemble les deux types de valeurs qui existent : la valeur pour l’utilisatrice et l’utilisateur, et la valeur de la connaissance, ces choses que l’on ne peut apprendre qu’en livrant et en récoltant le feedback.
 
-C’est un dojo donc nous allons faire très peu de théorie, beaucoup de pratique ! Inscrivez-vous vite !
+C’est un dojo donc nous allons faire très peu de théorie, beaucoup de pratique ! 
+Inscrivez-vous vite !
 
 ## Demandez le programme !
 
