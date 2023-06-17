@@ -119,6 +119,19 @@ width="300"/></a>
 
 <details>
 <summary style="cursor: pointer">Événements passés</summary>
+
+<table><tbody>
+<!-- {% for meetup in past_meetups %} -->
+  <tr>
+    <td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td><td><a href="{{ meetup.url }}">{{ meetup.title }}</a>
+<!-- {% if meetup.event.pictures.url %} -->
+    <a title="Photos de l'événement" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
+<!-- {% endif %} -->
+    </td>
+   </tr>
+<!-- {% endfor %} -->
+</tbody></table>
+ 
 <ul>
 <!-- {% for meetup in past_meetups %} -->
   <li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
