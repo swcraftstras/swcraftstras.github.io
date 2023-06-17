@@ -25,38 +25,43 @@ src="/assets/img/swcraftsxb-logo-grand.jpeg"
 width="600" />
 </div>
 
-
-## Événements à venir
+## Actualité
 
 <!-- {% if next_meetup %} -->
+<table>
+<tbody>
 
-<ul>
 <!-- {% for meetup in next_meetups %} -->
-<li>{{ meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ meetup.url }}">{{ meetup.title }}</a>
+<tr><td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td>
 
+<td>
 <!-- {% if meetup.event.cover.img %} -->
-<br/>
 <a href="{{ meetup.url }}"><img alt="{{ meetup.event.cover.alt }}"
 src="{{ meetup.event.cover.img }}"
 width="300"/></a>
-<!-- {% endif %} -->
-
-<!-- {% if meetup.event.registration.url or meetup.event.location.url %} -->
 <br/>
 <!-- {% endif %} -->
+<a href="{{ meetup.url }}">{{ meetup.title }}</a>
+</td>
 
+<td>
+<ul>
 <!-- {% if meetup.event.registration.url %} -->
-<a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a>
-<!-- {% endif %} -->
-
-<!-- {% if meetup.event.location.url %} -->
-<a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
-<!-- {% endif %} -->
-
-
+<li>
+  <a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/> Inscription sur le site Meetup </a>
 </li>
-<!-- {% endfor %} -->
+<!-- {% endif %} -->
+<!-- {% if meetup.event.location.url %} -->
+<li>
+  <a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
+</li>
+<!-- {% endif %} -->
 </ul>
+</td>
+</tr>
+<!-- {% endfor %} -->
+</tbody>
+</table>
 
 <!-- {% else %} -->
 
@@ -79,26 +84,6 @@ width="300"/></a>
 <!-- {% endfor %} -->
 </tbody></table>
 </details>
-
-## Actu
-
-<!-- {% if next_meetup %} -->
-Prochain meetup :
-{{ next_meetup.event.date | date: "%d/%m/%Y" }} — <a href="{{ next_meetup.url }}">{{ next_meetup.title }}</a>
-<!-- {% if next_meetup.event.registration.url %} --> <a title="Inscription sur le site Meetup.com" href="{{ next_meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de next_meetup.com" src="/assets/img/event_registration_icon_{{ next_meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/></a><!-- {% endif %} -->
-<!-- {% if next_meetup.event.location.url %} --> <a title="Lieu de l'événement" href="{{ next_meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ next_meetup.event.location.name }}</a><!-- {% endif %} -->
-
-<!-- {% if next_meetup.event.cover.img %} -->
-
-[![{{ next_meetup.event.cover.alt }}]({{ next_meetup.event.cover.img }}){: width="300" }]({{ next_meetup.url }})
-
-<!-- {% endif %} -->
-
-<!-- {% else %} -->
-
-🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
-
-<!-- {% endif %} -->
 
 ## La communauté
 
