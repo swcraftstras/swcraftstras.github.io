@@ -30,6 +30,13 @@ Préparez-vous à être surpris•e•s !
 
 Nous mettrons à disposition de quoi manger et se rassasier. Il est important que vous vous inscriviez pour que nous puissions adapter les quantités.
 
+## Demandez le programme
+
+- 18h30 : explications du format forum ouvert
+- 19h45 : début du déroulé
+- 21h15 : clôture du forum
+- Continuons de discuter si le cœur nous en dit :)
+
 ## Infos pratiques
 
 Inscrivez-vous à l’adresse suivante : [{{ page.event.registration.url }}]({{ page.event.registration.url }})
