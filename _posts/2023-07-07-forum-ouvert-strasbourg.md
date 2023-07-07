@@ -47,12 +47,6 @@ L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page
 
 ![Plan du lieu]({{ page.event.location.img }}){: width="200" }
 
-## Sur la plateforme Meetup
-
-- [Software Crafters Lyon](https://www.meetup.com/fr-FR/software-craftsmanship-lyon/)
-- [Software Crafters Paris](https://www.meetup.com/fr-FR/paris-software-craftsmanship/)
-- [Software Crafters Strasbourg](https://www.meetup.com/fr-FR/software-crafters-strasbourg/)
-
 ***
 
 Rejoignez le meetup Software Crafters Strasbourg sur [Discord](https://discord.gg/s2USaKanCU) pour participer à la communauté et aux événements futurs.
