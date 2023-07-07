@@ -1,18 +1,17 @@
 ---
-draft: true
 title: "Forum ouvert à Strasbourg"
 date: "2023-07-07"
 category: "meetup"
 event:
   date: "2023-07-20 18:30:00.000"
-  cover: 
+  cover:
     img: "/assets/img/event-forum-ouvert-strasbourg-plage-digitale.png"
-    alt: "TODO"
+    alt: "Software Crafters Strasbourg, Soirée Forum Ouvert, La Plage Digitale"
   pictures:
   #url: ""
   location:
-    name: "La Plage Digitale"
-    url: "https://discord.gg/pPDxAz3kSR"
+    name: "à La Plage Digitale à Strasbourg"
+    url: "https://www.google.com/maps/place/48%C2%B034'34.3%22N+7%C2%B045'19.6%22E/@48.5761959,7.7548093,19z/data=!3m1!4b1!4m4!3m3!8m2!3d48.576195!4d7.755453?entry=ttu"
     details: "L'accès se fera à l'entrée de derrière (croisement rue de Bienne et rue de Genève)"
     img: "/assets/img/plage-digitale-rue-bienne-genève.png"
   registration:
@@ -25,16 +24,11 @@ event:
 
 ![{{ page.event.cover.alt }}]({{ page.event.cover.img }}){: width="600" }
 
-TODO: déroulé de la soirée
+C’est un [Forum Ouvert](https://fr.wikipedia.org/wiki/M%C3%A9thodologie_Forum_Ouvert), ce qui veut dire que les participants vont construire le programme de l’événement au fil de l’eau. Ainsi, on ne sait pas vraiment ce qui va se passer à l’avance.
 
-## Plus d'infos :
+Préparez-vous à être surpris•e•s !
 
-Le forum Ouvert (en anglais Open space ou Open Space Technology) est une méthode pour structurer des conversations et des conférences.
-
-N'importe qui peut proposer un sujet qu'il a envie d'aborder, qu'il le connaisse très bien ou pas du tout (c'est l'occasion d'apprendre).
-
-Des salles virtuelles (sur le Discord du meetup Software Crafters Lyon ) seront alors créées pour chacun des sujet et les participants peuvent passer d'une salle à l'autre comme bon leur semble pendant la soirée.
-
+Nous mettrons à disposition de quoi manger et se rassasier. Il est important que vous vous inscriviez pour que nous puissions adapter les quantités.
 
 ## Infos pratiques
 
