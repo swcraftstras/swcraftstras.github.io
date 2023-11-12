@@ -5,7 +5,7 @@ category: "meetup"
 event:
   date: "2023-10-26 12:00:00.000"
   cover: 
-    img: "/assets/img/2Fevent-clean-code-du-point-de-vue-de-la-cognition.png"
+    img: "/assets/img/event-clean-code-du-point-de-vue-de-la-cognition.png"
     alt: "Clean Code du point de vue de la Cognition - Yoan Thirion - Software Crafter Strasbourg"
   pictures:
   #url: ""
