@@ -18,11 +18,11 @@ width="600" />
 ## Actualité
 
 <!-- {% if next_meetup %} -->
-<table>
+<table lang="{{site.lang}}">
 <tbody>
 
 <!-- {% for meetup in next_meetups %} -->
-<tr><td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td>
+<tr><td><time datetime="{{ meetup.event.date | date: "%Y-%m-%d" }}">{{ meetup.event.date | date: "%d/%m/%Y" }}</time></td>
 
 <td>
 <!-- {% if meetup.event.cover.img %} -->
@@ -90,9 +90,9 @@ width="300"/></a>
 
 ## La communauté
 
-La communauté <span lang="en-Gb">Software Crafters</span> Strasbourg réunit les professionnels et professionnelles de la création de logiciels, sans sexisme, élitisme, ni langage ou techno obligatoire.
+La communauté <span lang="en-US">Software Crafters Strasbourg</span> réunit les professionnels de la création de logiciels, sans sexisme, élitisme, ni langage ou techno obligatoire.
 
-Si vous êtes intéressé(e)s par le Test-Driven Development, Agile Testing, les <span lang="en-Gb">challenges</span> du code <span lang="en-Gb">legacy</span>, BDD, DDD, l'attitude Clean Coder, les problématiques de <span lang="en-Gb">design</span>, rejoignez-nous immédiatement pour être informé de tous nos événements !
+Si vous êtes intéressés par le <span lang="en-US">Test-Driven Development, Agile Testing</span>, les challenges du code patrimonial, BDD, DDD, l'attitude <span lang="en-US">Clean Coder</span>, les problématiques de conception, rejoignez-nous  pour être informé de tous nos événements !
 
 En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du développement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire.
 
