@@ -48,7 +48,12 @@ width="300"/></a>
 <ul>
 <!-- {% if meetup.event.registration.url %} -->
 <li>
+<!-- {% if meetup.category == 'meetup' %} -->
   <a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/> Inscription sur le site Meetup </a>
+<!-- {% endif %} -->
+<!-- {% if meetup.category != 'meetup' %} -->
+  <a title="Informations pratiques" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/> Inscription sur le site Meetup </a>
+<!-- {% endif %} -->
 </li>
 <!-- {% endif %} -->
 <!-- {% if meetup.event.location.url %} -->
