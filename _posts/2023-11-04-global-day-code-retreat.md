@@ -4,9 +4,9 @@ date: "2023-11-04"
 category: "meetup"
 event:
   date: "2023-11-04 09:00:00.000"
-  cover:
-    #img: "/assets/img/event-forum-ouvert-strasbourg-plage-digitale.png"
-    alt: "Software Crafters Strasbourg, Global Day of Code Retreat, La Plage Digitale"
+  cover: 
+    img: "/assets/img/swcraftsbx-banner-code-retreat.png"
+    alt: "Global Day of Code Retreat Strasbourg 2023, La Plage Digitale"
   pictures:
   #url: ""
   location:
@@ -18,8 +18,8 @@ event:
     type: meetup_com
     url: "https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/296513856/"
 
---- 
-
+---
+ 
 ## {{ page.title }}
 
 
