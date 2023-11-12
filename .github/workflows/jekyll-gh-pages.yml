@@ -36,7 +36,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Show config
-        run: cat /github/workspace/./_config.yml
+        run: ls -al && cat ./_config.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
