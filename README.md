@@ -1,4 +1,3 @@
-
 <!--
 {% assign event_categories = "meetup, conference" | split: ", " %}
 
