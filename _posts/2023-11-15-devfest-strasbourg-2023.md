@@ -1,6 +1,6 @@
 ---
 title: "DevFest Strasbourg 2023 — Retrouvez nous au community booth"
-date: "2023-11-15"
+date: "2023-11-12"
 category: "conference"
 event:
     date: "2023-11-15"
