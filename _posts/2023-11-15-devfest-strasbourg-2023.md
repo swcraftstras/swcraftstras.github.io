@@ -6,6 +6,9 @@ event:
     date: "2023-11-15"
     pictures:
         #url: ""
+    cover:
+      img: "/assets/img/conference-devfest-2023.png"
+      alt: "Devfest Strasbourg 2023"
     location:
         name: "Campus CCI Strasbourg"
         url: "https://www.openstreetmap.org/way/43658349#map=18/48.55519/7.74425&layers=N"
@@ -15,6 +18,8 @@ event:
         url: "https://devfest.gdgstrasbourg.fr/"
 
 ---
+
+![conference-devfest-2023.png](/assets/img/conference-devfest-2023.png)
 
 On parle de craft, on fait des Coding Dojo!!! Viendez.
 
