@@ -19,15 +19,13 @@ event:
 
 ---
 
-![conference-devfest-2023.png](/assets/img/conference-devfest-2023.png)
-
 On parle de craft, on fait des Coding Dojo!!! Viendez.
 
 Le 15 novembre 2023, retrouvez le meetup Software Crafters Strasbourg au community booth lors du DevFest Strasbourg!
 
 Ça se passe au Campus CCI Strasbourg.
 
-![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/event-swcraftsxb-devfest-2022.jpeg)
+![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/conference-devfest-2023.png)
 
 ## Le meetup
 
