@@ -22,6 +22,30 @@ event:
  
 ## {{ page.title }}
 
+Détails
+Pour la première fois, le Code Retreat aura lieu à Strasbourg ! Le Global Day of Code Retreat est un événement international d'une journée permettant de pratiquer le développement "dans les règles de l'art", sans être pressé par des contraintes de temps et d'argent.
+
+***
+
+Une code retreat permet d'apprendre et d'approfondir les fondamentaux de design et du développement logiciel en poussant les participant·e·s en dehors du confort de leurs habitudes.
+
+La session est accessible pour les développeurs et développeuses débutant·e·s comme chevronné·e·s !
+
+Pour en savoir plus : coderetreat.org/
+
+***
+
+La journée se déroule en 6 séances de 40 minutes chacune portant sur le même sujet. Chaque session se déroule en pair et permet d'explorer de nouvelles contraintes.
+
+Les participant·e·s sont convié·e·s à venir avec leur ordinateur et/ou un ensemble clavier/souris USB pour permettre le travail en pair, en minimisant le partage par les binômes d'un même équipement.
+
+⚠️ Un environnement de travail doté d'un framework d'exécution de tests doit être installé avant la tenue de l'événement.
+
+Nous prevoyons un repas végé friendly pour la pause de midi. Contactez-nous en cas d'allergies ou de régimes particuliers.
+
+💡 Nous vous invitons à vous inscrire si vous êtes certain•e de pouvoir venir. Nous voulons éviter des désistements de dernière minute pour pouvoir anticiper les repas au mieux.
+
+## Remerciements
 
 Pour remercier notre traiteur.
 
