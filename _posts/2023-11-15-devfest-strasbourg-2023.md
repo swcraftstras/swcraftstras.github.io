@@ -28,10 +28,15 @@ Le 15 novembre 2023, retrouvez le meetup Software Crafters Strasbourg au communi
 
 ![Logo de Software Crafters Strasboug et du DevFest Strasbourg l'un à côté de l'autre](/assets/img/conference-devfest-2023.png)
 
+## Software Crafters Strasbourg
+
+![QR code vers le site Software Crafters Strasbourg : https://swcraftstras.github.io](/assets/img/qr-code-swcraftsras-site.svg)
+
+
 ## Le meetup
 
-![QR code pointnant vers https://swcraftstras.github.io/](/assets/img/qrcode_swcraftstras.github.io.png)
+![QR code pointnant vers https://swcraftstras.github.io/](/assets/img/qr-code-swcraftsras-meetup.svg)
 
 ## Le Discord                                                                                                   
 
-![QR code vers le Discord du meetup : https://discord.com/invite/s2USaKanCU](/assets/img/qrcode_discord.com.png)
+![QR code vers le Discord du meetup : https://discord.com/invite/s2USaKanCU](/assets/img/qr-code-swcraftsras-discord.svg)
