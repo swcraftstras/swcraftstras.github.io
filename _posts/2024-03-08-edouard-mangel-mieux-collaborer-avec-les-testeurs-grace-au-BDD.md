@@ -3,7 +3,7 @@ title: "Mieux collaborer avec les testeurs grâce au Behavior Driven Development
 date: "2024-03-08"
 category: "meetup"
 event:
-    date: "2023-04-03 19:00:00.000"
+    date: "2024-04-03 19:00:00.000"
     pictures:
         #url: ""
     location:
