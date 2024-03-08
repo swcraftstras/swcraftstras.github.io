@@ -4,6 +4,9 @@ date: "2024-03-08"
 category: "meetup"
 event:
     date: "2024-04-03 19:00:00.000"
+    cover:
+      img: "/assets/img/event-mieux-collaborer-avec-les-testeurs-grace-a-bdd-edouard-davy-metangmo-edouard-mangel.png"
+      alt: "Mieux collaborer avec les testeurs grâce au Behavior Driven Development. Davy Metangmo, Edouard Mangel. La plage Digitale."
     pictures:
         #url: ""
     location:
@@ -18,6 +21,8 @@ event:
 ---
 
 ## {{ page.title }}
+
+![{{ page.event.cover.alt }}]({{ page.event.cover.img }}){: width="600" }
 
 L’adoption de l’Agilité par les organisations est de plus en plus prégnante dans notre société. 
 Néanmoins, nous observons régulièrement qu’en matière de test, les pratiques évoluent peu (peu de collaboration entre testeurs et développeurs. 
