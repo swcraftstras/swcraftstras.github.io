@@ -26,4 +26,6 @@ else
   FUTURE=''
 fi
 
+#jekyll --help
+#jekyll build --source="/data/" --destination="/data/_site" --baseurl="" --drafts
 github-pages build --source "/data/" --destination="/data/_site"
