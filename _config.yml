@@ -3,4 +3,4 @@ locale: "fr-FR"
 lang: "fr-FR"
 title: "Software Craft Strasbourg"
 image: "/assets/img/swcraftsxb-logo-grand.jpeg"
-show_drafts: true
+show_drafts: false
