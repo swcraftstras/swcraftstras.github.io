@@ -1,62 +1,40 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en-US" }}">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
 
-    {% seo %}
-    <link rel="stylesheet" href="{{ "
-    /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-</head>
-<body>
-<div class="container-lg px-3 my-5 markdown-body">
-    {% if site.title and site.title != page.title %}
-    <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-    {% endif %}
-    <h2>{{ page.title }}</h2>
+<figure>
+    <img src="{{ page.event.cover.img }}" alt="{{ page.event.cover.alt }}" width="600px">
+</figure>
 
-    <figure>
-        <img src="{{ page.event.cover.img }}" alt="{{ page.event.cover.alt }}" width="600px">
-    </figure>
+{{ content }}
+<h2>Demandez le programme !</h2>
+<p>
+    Nous vous accueillerons à <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a> à partir de {{
+    page.event.date | date: "%Hh%M" }} et nous commencerons 15 min plus tard.
+</p>
+<ul>
+    <!-- {% for programme_item in page.event.programme %} -->
+    <li>{{ programme_item }}</li>
+    <!-- {% endfor %} -->
+</ul>
+<h2>Infos pratiques</h2>
+<p>
+    Inscrivez-vous à l’adresse suivante : <a href="{{ page.event.registration.url }}">{{ page.event.registration.url
+    }}</a>
+<p>
+<p>
+    L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page.event.date | date: "%Hh%M" }} à
+    <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a>
+</p>
+<p>
 
-    {{ content }}
-        <h2>Demandez le programme !</h2>
-        <p>
-            Nous vous accueillerons à <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a> à partir de {{ page.event.date | date: "%Hh%M" }} et nous commencerons 15 min plus tard.
-        </p>
-        <ul>
-<!-- {% for programme_item in page.event.programme %} -->
-            <li>{{ programme_item }}</li>
-<!-- {% endfor %} -->
-        </ul>
-        <h2>Infos pratiques</h2>
-        <p>
-            Inscrivez-vous à l’adresse suivante : <a href="{{ page.event.registration.url }}">{{ page.event.registration.url }}</a>
-        <p>
-        <p>
-            L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page.event.date | date: "%Hh%M" }} à
-        <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a>
-        </p>
-        <p>
-
-        </p>
-        <figure>
-            <img src="{{ page.event.location.img }}"/>
-            <figcaption>{{ page.event.location.details }}</figcaption>
-        </figure>
-    <footer>
-        Rejoignez-nous sur <a href="https://discord.gg/s2USaKanCU">Discord</a> pour participer à la communauté et aux
-        événements futurs.
-    </footer>
-    {% if site.github.private != true and site.github.license %}
-    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        Ce site est open-source. {% github_edit_link "Améliore cette page" %}.
-    </div>
-    {% endif %}
-</div>
-<script src="/assets/js/anchor-js-5.0.0.js"></script>
-<script>anchors.add();</script>
-</body>
-</html>
+</p>
+<figure>
+    <img src="{{ page.event.location.img }}"/>
+    <figcaption>{{ page.event.location.details }}</figcaption>
+</figure>
+<footer>
+    Rejoignez-nous sur <a href="https://discord.gg/s2USaKanCU">Discord</a> pour participer à la communauté et aux
+    événements futurs.
+</footer>
