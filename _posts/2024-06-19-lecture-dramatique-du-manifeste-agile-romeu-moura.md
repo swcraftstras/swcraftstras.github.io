@@ -27,23 +27,23 @@ event:
       - Moment de convivialité
 ---
 
-> ### Une lecture dramatique du Manifeste Agile
->
-> Le Manifeste Agile est composé de 80 mots et je vais les lire, les approfondir, essayer de les rendre tangibles, donner beaucoup d'exemples et vous connecter avec ce que je trouve beau dans le Manifeste.
-> 
-> Connectons-nous à la beauté du respect des plans, des processus, des outils, des documentations complètes et de la négociation contractuelle ! (yay !)
-> 
-> Romeu Moura
+### Une lecture dramatique du Manifeste Agile
+
+Le Manifeste Agile est composé de 80 mots et je vais les lire, les approfondir, essayer de les rendre tangibles, donner beaucoup d'exemples et vous connecter avec ce que je trouve beau dans le Manifeste.
+ 
+Connectons-nous à la beauté du respect des plans, des processus, des outils, des documentations complètes et de la négociation contractuelle ! (yay !)
+ 
+Romeu Moura
 
 ***
 
-> ### A dramatic reading of the agile manifesto
->
-> The Agile Manifesto is 75 words and I will read them and zoom into them and try to make them tangible and give a lot of exemples and connect you to what I find beautiful in it
-> 
-> Let us connect to the beauty of following plans, processes, tools, comprehensive documentations and contract negotiation! (yay!)
-> 
-> Romeu Moura
+### A dramatic reading of the agile manifesto
+
+The Agile Manifesto is 75 words and I will read them and zoom into them and try to make them tangible and give a lot of exemples and connect you to what I find beautiful in it
+ 
+Let us connect to the beauty of following plans, processes, tools, comprehensive documentations and contract negotiation! (yay!)
+ 
+Romeu Moura
 
 ***
 
