@@ -47,4 +47,4 @@ Romeu Moura
 
 ***
 
-https://sessionize.com/romeu/
+Romeu Moura - Absurdism Lobbyist : Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity.
