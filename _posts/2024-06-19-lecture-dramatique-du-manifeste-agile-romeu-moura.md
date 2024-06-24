@@ -6,7 +6,7 @@ date: "2024-06-19"
 category: "meetup"
 event:
     # date de l'événement (différent de la date du post)
-    date: "2024-07-18 19:00:00.000"
+    date: "2024-07-18 18:45:00.000"
     speaker: "Romeu Moura"
     cover:
       img: "/assets/img/event-a-dramatic-reading-of-the-agile-manifeto-romeu-moura.png"

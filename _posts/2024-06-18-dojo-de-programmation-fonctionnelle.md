@@ -4,7 +4,7 @@ layout: meetup
 date: "2024-06-18"
 category: "meetup"
 event:
-    date: "2024-07-03 19:00:00.000"
+    date: "2024-07-03 18:45:00.000"
     programme:
       - 18:45 — Accueil chaleureux
       - 19:00 — Présentation du Dojo
@@ -46,6 +46,5 @@ C'est un dojo donc nous allons faire très peu de théorie, beaucoup de pratique
 
 Liste des katas disponibles
 
--   [https://codingdojo.org/kata](https://codingdojo.org/kata)
--   [https://kata-log.rocks](https://kata-log.rocks)
--   [https://cyber-dojo.org](https://cyber-dojo.org)
+- [Mars Rover Kata](https://codingdojo.org/kata/mars-rover/)
+- [Conway's Game of Life Kata](https://codingdojo.org/kata/GameOfLife/)
