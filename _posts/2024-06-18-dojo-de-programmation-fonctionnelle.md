@@ -1,5 +1,5 @@
 ---
-title: "Dojo de programmation fonctinnelle"
+title: "Dojo de programmation fonctionnelle"
 layout: meetup
 date: "2024-06-18"
 category: "meetup"
