@@ -131,6 +131,7 @@ C’est-à-dire qu’en recherchant les éléments de gauche, nous avons trouvé
 - [sur Discord](https://discord.gg/s2USaKanCU)
 - [sur Twitter](https://twitter.com/swcraftstras)
 - [sur Meetup](https://www.meetup.com/software-crafters-strasbourg)
+- sur Matrix (expérimental) : [https://matrix.to/#/#swcraftstras-matrix-test:matrix.org]([url](https://matrix.to/#/#swcraftstras-matrix-test:matrix.org))
 
 ***
 📜 Ce contenu est sous licence libre : [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
