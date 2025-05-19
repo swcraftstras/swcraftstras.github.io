@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<figure>
+    <img src="{{ page.event.cover.img }}" alt="{{ page.event.cover.alt }}" width="600px">
+</figure>
+
+{{ content }}
+<h2>Demandez le programme !</h2>
+<p>
+    Nous vous accueillerons à <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a> à partir de {{
+    page.event.date | date: "%Hh%M" }} et nous commencerons 15 min plus tard.
+</p>
+<ul>
+    <!-- {% for programme_item in page.event.programme %} -->
+    <li>{{ programme_item }}</li>
+    <!-- {% endfor %} -->
+</ul>
+<h2>Infos pratiques</h2>
+<p>
+    Inscrivez-vous à l’adresse suivante : <a href="{{ page.event.registration.url }}">{{ page.event.registration.url
+    }}</a>
+<p>
+<p>
+    L’événement aura lieu le {{ page.event.date | date: "%d/%m/%Y" }} à {{ page.event.date | date: "%Hh%M" }} à
+    <a href="{{ page.event.location.url }}">{{ page.event.location.name }}</a>
+</p>
+<p>
+
+</p>
+<figure>
+    <img src="{{ page.event.location.img }}"/>
+    <figcaption>{{ page.event.location.details }}</figcaption>
+</figure>
+<footer>
+    Rejoignez-nous sur <a href="https://discord.gg/s2USaKanCU">Discord</a> pour participer à la communauté et aux
+    événements futurs.
+</footer>
