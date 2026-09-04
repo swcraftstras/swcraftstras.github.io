@@ -17,7 +17,7 @@ layout: default.html
         </p>
     </section>
 
-    <section>
+    <section class="page-break-after">
         <h2><span aria-hidden="true">💛</span> Ce que nous encourageons</h2>
         <p>Nous valorisons avant tout les attitudes d'ouverture, de curiosité et de respect.</p>
         <ul>
@@ -67,7 +67,7 @@ layout: default.html
             choix de son niveau d'implication.<br>
             Idéalement, nous construirons la réparation ensemble, mais pas obligatoirement – cela dépendra d'elle.
         </p>
-        <p>
+        <p class="page-break-after">
             Nos réponses peuvent aller d'un simple rappel pédagogique à une exclusion, temporaire ou définitive, voire à un signalement.<br>
             Nous cherchons avant tout à protéger les personnes concernées et à préserver la sécurité du groupe,
             dans le respect de chacune des parties.
@@ -106,7 +106,7 @@ layout: default.html
         </ul>
     </section>
 
-    <div class="back-link" style="margin-top: 3rem;">
+    <div class="back-link hide-print" style="margin-top: 3rem;">
         <a href="/">← Retour à l'accueil</a>
     </div>
 </article>
@@ -186,5 +186,16 @@ layout: default.html
 
     .code-of-conduct .closing-message strong {
         color: #1a365d;
+    }
+    .page-break-after{
+        break-after: page;
+    }
+
+    @media print
+    {
+        .hide-print{
+        {
+            display: none !important;
+        }
     }
 </style>
