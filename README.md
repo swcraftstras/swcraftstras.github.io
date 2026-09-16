@@ -17,6 +17,8 @@ width="600" />
 
 ## Actualité
 
+<p><span aria-hidden="true">⭐️🌈</span><a href="https://swcraftstras.github.io/code-de-conduite"> Code de conduite</a></p>
+
 <!-- {% if next_meetup %} -->
 <table lang="{{site.lang}}">
 <tbody>
