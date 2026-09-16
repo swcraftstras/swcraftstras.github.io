@@ -1,14 +1,3 @@
-
-<!--
-{% assign event_categories = "meetup, conference" | split: ", " %}
-
-{% assign meetups = site.posts | where_exp: "category", 'event_categories[category] != empty ' %} 
-{% assign today =  "now" | date: "%Y-%m-%d" %}
-{% assign past_meetups = meetups | where_exp:"item", "item.event.date <  today"  %}
-{% assign next_meetups = meetups | where_exp:"item", "item.event.date >= today" | reverse %}
-{% assign next_meetup = next_meetups | first %}
--->
-
 <div style="text-align:center">
 <img alt="Logo du Software Craft Strasbourg"
 src="/assets/img/swcraftsxb-logo-grand.jpeg"
@@ -18,77 +7,6 @@ width="600" />
 ## Actualité
 
 <p><span aria-hidden="true">⭐️🌈</span><a href="https://swcraftstras.github.io/code-de-conduite"> Code de conduite</a></p>
-
-<!-- {% if next_meetup %} -->
-<table lang="{{site.lang}}">
-<tbody>
-
-<!-- {% for meetup in next_meetups %} -->
-<tr><td><time datetime="{{ meetup.event.date | date: "%Y-%m-%d" }}">{{ meetup.event.date | date: "%d/%m/%Y" }}</time></td>
-
-<td>
-<!-- {% if meetup.event.cover.img %} -->
-<a href="{{ meetup.url }}"><img alt="{{ meetup.event.cover.alt }}"
-src="{{ meetup.event.cover.img }}"
-width="300"/></a>
-<br/>
-<!-- {% endif %} -->
-<a href="{{ meetup.url }}">{{ meetup.title }}</a>
-</td>
-
-<td>
-<ul>
-<!-- {% if meetup.event.registration.url %} -->
-<li>
-<!-- {% if meetup.category == 'meetup' %} -->
-  <a title="Inscription sur le site Meetup.com" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/> Inscription sur le site Meetup </a>
-<!-- {% endif %} -->
-<!-- {% if meetup.category != 'meetup' %} -->
-  <a title="Informations pratiques" href="{{ meetup.event.registration.url }}" target="_blank" style="margin-left: 0.5rem;"><img  alt="Logo de meetup.com" src="/assets/img/event_registration_icon_{{ meetup.event.registration.type }}.png" style="height:1rem;margin-bottom: -0.1rem;"/>Informations pratiques</a>
-<!-- {% endif %} -->
-</li>
-<!-- {% endif %} -->
-<!-- {% if meetup.event.location.url %} -->
-<li>
-  <a title="Lieu de l'événement" href="{{ meetup.event.location.url }}" target="_blank" style="margin-left: 0.5rem;">🗺 {{ meetup.event.location.name }}</a>
-</li>
-<!-- {% endif %} -->
-</ul>
-</td>
-</tr>
-<!-- {% endfor %} -->
-</tbody>
-</table>
-
-<!-- {% else %} -->
-
-🥲 Aucun événement n'est prévu en moment. N'hésitez pas à passer [sur Discord](https://discord.gg/s2USaKanCU) si vous souhaitez en proposer ou s'il y a un sujet qui vous intéresserait!
-
-<!-- {% endif %} -->
-
-<details>
-<summary style="cursor: pointer">Événements passés</summary>
-
-<table><tbody>
-<!-- {% for meetup in past_meetups %} -->
-  <tr>
-    <td>{{ meetup.event.date | date: "%d/%m/%Y" }}</td>
-    <!-- {% if meetup.event.pictures.url %} -->
-    <td>
-      <a href="{{ meetup.url }}">{{ meetup.title }}</a>
-    </td>
-    <td>
-      <a title="Photos" href="{{ meetup.event.pictures.url }}" target="_blank" style="margin-left: 0.5rem;" >📸</a>
-    </td>
-    <!-- {% else %} -->
-    <td colspan="2">
-      <a href="{{ meetup.url }}">{{ meetup.title }}</a>
-    </td>
-<!-- {% endif %} -->
-   </tr>
-<!-- {% endfor %} -->
-</tbody></table>
-</details>
 
 ## La communauté
 
